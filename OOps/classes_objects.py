@@ -16,6 +16,12 @@ class Students:
         print(f"Address = {self.address}")
         print(f"Gender = {self.gender}")
 
+    def set_info(self):
+        self.name = input("Enter your name ")
+        self.age = int(input("Enter your age "))
+        self.Roll_no = int(input("Enter your Roll no "))
+        self.Gender = input("Enter your Gender ")
+
 
 
 s1 = Students() # You cann't to print the objects 
@@ -46,3 +52,6 @@ s1.info()
 print("-------------------------------------------------------------------------")
 
 s2.info()
+
+
+s1.set_info()

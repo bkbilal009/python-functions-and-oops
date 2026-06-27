@@ -1,0 +1,50 @@
+"In Python, what is the difference between a function and a method?","A method is a function associated with a specific data type, while a function is a general-purpose block of code."
+Which Python keyword is used to start the definition of a function?,def
+True or False: A function name must follow the same naming rules as variables in Python.,True
+What symbol is required at the end of the first line of a Python function definition (after the parentheses)?,A colon (:)
+"In Python, what defines the block of code that belongs to a specific function?",Indentation
+What is the primary characteristic of a 'Built-in Function' in Python?,"It is a function already provided by the Python language, such as print() or type()."
+What happens to a defined function in memory if it is never called during the execution of a script?,It remains in memory but is never executed.
+How do you trigger or 'call' a function named 'greet' in Python?,By writing the function name followed by parentheses: greet()
+What is 'Scoping' in the context of Python functions?,The concept that variables created inside a function are only valid and accessible within that function's 'world'.
+"If a variable named 'x' is created inside a function, can it be accessed or modified directly outside of that function?","No, it is local to the function."
+What is the term for the variables listed inside the parentheses in a function's definition?,Parameters
+What is the term for the actual values passed into a function when it is called?,Arguments
+What happens if you call a function that requires two arguments but you provide three?,Python will raise a TypeError stating that too many arguments were given.
+What happens if you call a function that requires two arguments but you only provide one?,Python will raise a TypeError stating that a required positional argument is missing.
+"In Python, does the language strictly enforce the data type of parameters (e.g., forcing a parameter to be an integer)?","No, Python is not a strict-typed language in this regard by default."
+What is the purpose of the 'return' keyword in a function?,It sends a value back to the caller and exits the function.
+"If a function performs a calculation but only uses 'print' instead of 'return', what value is stored in a variable assigned to that function call?",None
+What is the default return value of a Python function that does not contain a 'return' statement?,None
+"The _____ keyword is used as a placeholder in a function where code is intended to be written later, preventing syntax errors.",pass
+What is 'Ninja Coding' according to the source material?,Using one-line built-in methods like .sort() or sum() instead of building the logic manually.
+Why might an interviewer reject a candidate for using a built-in method like .sort() when asked to sort a list?,The interviewer wants to see the candidate's ability to build logic manually rather than relying on built-in shortcuts.
+"To use an f-string in Python, what character must precede the opening quotation mark?",f
+"In an f-string, how do you embed a variable name so its value appears in the output?",Place the variable name inside curly braces {}.
+How can you print a variable 'age' using an f-string?,"print(f""My age is {age}"")"
+"If a variable 'name' is defined in the global scope and a variable with the same name is defined inside a function, are they the same variable?","No, they occupy different locations in memory due to scoping."
+What is a 'User Defined Function'?,A function created by the programmer rather than one built into the Python language.
+List two examples of built-in Python functions mentioned in the text.,print() and type()
+What is the specific utility of 'type()' in Python?,It returns the data type of the object passed into it.
+Why is it often better to 'return' a value from a function rather than 'print' it directly within the function?,"It allows the function to be more reusable, as other parts of the program can use the resulting data."
+What occurs when you pass a list as an argument to a function parameter 'x'?,The parameter 'x' becomes a reference to that list within the function's scope.
+"In the context of the source, what is the 'logical' way to build a sum of a list without using the sum() function?",Using a 'for' loop to iterate through the list and adding each element to a running total variable.
+Term: Positional Argument,Definition: An argument that must be provided in the correct order as defined by the function parameters.
+"In the example 'def add(n1, n2):', what are 'n1' and 'n2' called?",Parameters
+"In the call 'add(5, 10)', what are the values '5' and '10' called?",Arguments
+"True or False: You can return multiple types of data from a function, such as a string in one condition and a boolean in another.",True
+"When a function reaches a 'return' statement, what happens to the lines of code following it inside the same function block?",They are not executed because the function terminates at the return statement.
+How does logic building relate to DSA (Data Structures and Algorithms) according to the speaker?,DSA is considered the only effective way to build programming logic beyond basic syntax.
+"If you print a variable assigned to a function call that includes 'return 10', what will the output be?",10
+What is the purpose of using 'total = 0' before starting a loop to sum list elements?,To initialize a variable that will store the cumulative sum.
+"In the source material, how long does the instructor suggest it takes to learn basic Python syntax like list operations?",Hardly two days.
+"According to the instructor, how long should one focus on DSA to prepare for a software role at a good company?",At least four months.
+Why is it recommended to avoid 'Web Development' and 'DSA' simultaneously?,"Both require significant time and focus, making it difficult to master both at once."
+"In Python, which built-in function is often used to get user input as a string?",input()
+How do you convert the string output of 'input()' into a whole number?,"Wrap it in the int() function, e.g., int(input())."
+Concept: Type Checking,Definition: Determining the class or category of a piece of data using the type() function.
+"If you define a function but never use parentheses '()' when referencing it, what are you referencing?","The function object itself, rather than calling the function."
+What is the term for the 'indentation' space at the beginning of a line in Python code?,"It signifies a block of code, such as the body of a function or a loop."
+"Can a Python function return a string literal like ""Even""?","Yes, functions can return any data type."
+What happens if a variable is defined globally but modified inside a function without special keywords?,"A new local variable is created within the function, leaving the global variable unchanged."
+"The process of passing a function's return value directly into another function call (e.g., 'print(check(add(5,5)))') is called _____.",Nesting (or chaining) function calls.
